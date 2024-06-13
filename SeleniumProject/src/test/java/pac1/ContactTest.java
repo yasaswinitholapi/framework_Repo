@@ -22,8 +22,5 @@ public void createOrgTest() {
 public void modifyorgTest() {
 	System.out.println("excute modifyorgTest");
 }
-@Test
-public void deleteorgTest() {
-	System.out.println("excute modifyorgTest");
-}
+
 }
