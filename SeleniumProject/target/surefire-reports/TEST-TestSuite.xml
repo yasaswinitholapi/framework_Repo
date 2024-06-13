@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.006" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.007" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="browser" value="chrome"/>
-    <property name="url" value="http://testenv.com"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\Yasaswini\git\repository\SeleniumProject"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -28,7 +26,7 @@
     <property name="os.name" value="Windows 11"/>
     <property name="classworlds.conf" value="C:\Users\Yasaswini\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oracle\product\10.2.0\db_4\bin;C:\oracle\product\10.2.0\db_3\bin;C:\oracle\product\10.2.0\db_2\bin;C:\oracle\product\10.2.0\db_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Yasaswini\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yasaswini\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Yasaswini\AppData\Local\Programs\Python\Python37\;C:\Users\Yasaswini\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Yasaswini\AppData\Local\Programs\Python\Python310\;C:\Users\Yasaswini\AppData\Local\Microsoft\WindowsApps;C:\php;C:\Users\Yasaswini\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Yasaswini\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oracle\product\10.2.0\db_4\bin;C:\oracle\product\10.2.0\db_3\bin;C:\oracle\product\10.2.0\db_2\bin;C:\oracle\product\10.2.0\db_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Yasaswini\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yasaswini\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Yasaswini\AppData\Local\Programs\Python\Python37\;C:\Users\Yasaswini\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Yasaswini\AppData\Local\Programs\Python\Python310\;C:\Users\Yasaswini\AppData\Local\Microsoft\WindowsApps;C:\php;C:\Users\Yasaswini\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Users\Yasaswini\AppData\Roaming\npm;C:\Users\Yasaswini\AppData\Local\GitHubDesktop\bin;."/>
     <property name="maven.conf" value="C:\Users\Yasaswini\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
@@ -40,13 +38,11 @@
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="17"/>
-    <property name="password" value="admin"/>
-    <property name="username" value="admin"/>
     <property name="user.name" value="Yasaswini"/>
     <property name="java.class.path" value="C:\Users\Yasaswini\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\boot\plexus-classworlds-2.7.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P RT -Durl=http://testenv.com -Dbrowser=chrome -Dusername=admin -Dpassword=admin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P RT"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,8 +60,8 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="createOrgTest" classname="pac1.ContactTest" time="0.004"/>
+  <testcase name="createOrgTest" classname="pac1.ContactTest" time="0.006"/>
   <testcase name="modifyorgTest" classname="pac1.ContactTest" time="0"/>
   <testcase name="createcontactTest" classname="pac2.OrgTest" time="0.001"/>
-  <testcase name="modifycontactTest" classname="pac2.OrgTest" time="0.001"/>
+  <testcase name="modifycontactTest" classname="pac2.OrgTest" time="0"/>
 </testsuite>
